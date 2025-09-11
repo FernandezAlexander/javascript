@@ -7,7 +7,7 @@ import {ValidationError} from "./errors";
  * Represents a currency with a valid ISO 4217 code.
  */
 
-class Currency {
+export class Currency {
     static #VALID_CODES = ['USD', 'EUR','GBP', 'JPY'];
     #code;
 
