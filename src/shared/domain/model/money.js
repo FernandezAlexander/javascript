@@ -102,10 +102,7 @@ export class Money {
      * @returns {string} The string representation of the Money instance.
      */
     toString() {
-        
-        
         return `${this.#amount.toFixed(2)} ${this.#currency.code}`;
-        
     }
     
 }
